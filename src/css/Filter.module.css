@@ -1,0 +1,57 @@
+.form fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 55%;
+}
+.form fieldset select{
+    width: 90%;
+}
+.form button{
+    width: 50%;
+    align-self: center;
+    padding: 2em 1em 2em 1em;
+    margin-top: 1em;
+}
+.form,
+h1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+.form p{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+.form select {
+    width: 50%;
+    align-self: center;
+}
+@media (max-width: 650px) {
+  .form {
+    max-width: 95vw;
+  }
+  .form fieldset{
+      width: auto;
+  }
+  .form fieldset select{
+      width: 90%;
+  }
+  .form button{
+      width: 60%;
+  }
+  .form p{
+      width: auto;
+  }
+  .form select{
+      width: 70%;
+  }
+}
+
+.filterLabel {
+  font-weight: bold;
+  font-size: 110%;
+}

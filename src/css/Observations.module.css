@@ -1,0 +1,18 @@
+.chart{
+    display: flex;
+    height:60vh;
+    padding-bottom: 5em;
+}
+.table {
+    margin:auto;
+}
+.valueCell{
+    text-align: center;
+}
+.block{
+    height: 40vh;
+    padding-top: 2em;
+}
+.p{
+    text-align: center;
+}

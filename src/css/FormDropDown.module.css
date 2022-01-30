@@ -1,0 +1,21 @@
+.formField {
+    display: flex;
+    flex-direction: column;
+}
+.formField > *{
+ display: flex;
+}
+.formField select{
+    margin-left: 5em;
+    margin-right:5em;
+}
+@media (max-width:450px){
+    .formField select{
+        margin-left: 1em;
+    margin-right:1em;
+        max-width: 90vw;
+    }
+}
+.formField label{
+    margin: auto;
+}
